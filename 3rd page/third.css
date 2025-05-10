@@ -1,0 +1,716 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    
+    
+    }
+    
+    body{
+        width: 1440px;
+    }
+    
+    .header{
+        width: 1440px;
+        height: 86px;
+        display: flex;
+        align-items: center;
+        margin-left: 130px;
+        gap: 20px;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        color: #8CB7F5;
+        font-size: 2rem;
+    }
+    img{
+        height: 46px;
+        width: 150px;
+    }
+    .search{
+        width: 421px;
+        height: 40px;
+        border-right-width: 0px;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        font-size: 16px;
+        border-color: #0D6EFD;
+       
+    }
+    
+    .full-search{
+        height: 40px;
+        width: 665px;
+        position: absolute;
+        left: 326px;
+        top: 22px;
+        
+    }
+    .categories{
+        height: 40px;
+        width: 145px;
+        font-size: 16px;
+        position: absolute;
+        left: 421px;
+        top: 0px;
+        border-width: 2px;
+        border-left-width: .4px;
+        border-color: #0D6EFD;
+       
+        
+    }
+    
+    .search-button{
+        height: 40px;
+        width: 100px;
+        position: absolute;
+        top: 0px;
+        left: 565px;
+        background-color: #0D6EFD;
+        color: white;
+        border-style:none;
+        
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        font-size: 16px;
+    }
+    
+    
+    .user{
+        width: 228px;
+        height: 41px;
+        position: absolute;
+        left: 1080px;
+        top: 25px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .user p{
+        color: grey;
+    }
+    i{
+       color:grey
+    }
+    
+    hr{
+        opacity: .25;
+    }
+    
+    select{
+        font-size: 1rem;
+    }
+    
+    .menu{
+        height: 56px;
+        width: 1440px;
+        display: flex;
+        
+       
+    }
+    .menu-right{
+        width: 620px;
+        display: flex;
+        gap:20px;
+        align-items: center;
+        font-size: 1rem;
+        margin-left: 130px;
+        justify-content: space-between;
+    }
+    
+    .menu-logo{
+        display: flex;
+        gap: 7px;
+    }
+    .helpoption{
+        border-style: none;
+        width: 60px;
+    }
+    
+    pre{
+        font-size: 1rem;
+    }
+    .offer p{
+        color: black;
+    }
+    .gift p{
+        color: black;
+    }
+    .project p{
+        color: black;
+    }
+    .item p{
+        color: black;
+    }
+    .shipping{
+        display:flex;
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+    
+    .lang{
+        
+        border-style: none;
+        position: relative;
+        top:16px;
+        left: 280px;
+        width: 124px;
+        height: 24px;
+    }
+    .location{
+        border-style: none;
+        position: relative;
+        left: 150px;
+        top: 8px;
+        height: 24px;
+        width: 115px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    main{
+        width: 1440px;
+        height: 1700px;
+        background-color: #f7fafc;
+        
+        
+    }
+    
+    
+        .path{
+            width: 1440px;
+            height: 64px;
+            position: absolute;
+            top: 142px;
+            
+        }
+        .path pre{
+            width: 411px;
+            height: 24px;
+            position: relative;
+            top: 20px;
+            left: 133px;
+            color: #8B96A5;
+        }
+
+        
+
+
+
+        .top-bar {
+            width: 920px;
+            height: 62px;
+            position: absolute;
+            left: 390px;
+            top: 207px;
+            display: flex;
+            align-items: center;
+            /* justify-content: space-between; */
+            border: 1px solid #e0e0e0;
+            background: #fff;
+            border-radius: 8px;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            /* gap: 10px; */
+            flex-wrap: wrap;
+          }
+          .top-bar span{
+            width: 251px;
+            height: 19px;
+            position: relative;
+            left: 19px;
+          }
+          
+          .item-count {
+            color: #333;
+          }
+          
+          .verified-checkbox {
+            position: absolute;
+            left: 507px;
+            width: 144px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+             gap: 6px;
+            
+          }
+          
+          .verified-checkbox input[type="checkbox"] {
+            accent-color: #007bff;
+            width: 16px;
+            height: 16px;
+          }
+          
+          .sort-dropdown {
+            width: 172px;
+            height: 40px;
+            position: absolute;
+            left: 652px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            background: #f9f9f9;
+          }
+          
+          .view-toggle {
+            width: 76px;
+            height: 40px;
+            position: absolute;
+            left: 834px;
+            display: flex;
+            gap: 5px;
+          }
+          
+          .view-toggle button {
+            padding: 6px 10px;
+            border: 1px solid #ccc;
+            background: #fff;
+            border-radius: 6px;
+            cursor: pointer;
+          }
+          
+          .view-toggle button.active {
+            background: #007bff;
+            color: white;
+            border-color: #007bff;
+          }
+
+
+
+
+
+
+.selection{
+    width: 728px;
+    height: 32px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    left: 386px;
+    top: 288px;
+}
+.Selection-list{
+    margin-right: 10px;
+    width: 89px;
+    height: 32px;
+    color: #505050;
+    background-color: white;
+    border: 1px solid #007bff;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.clear {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clear a{
+    color: #007bff;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+        .filter-container {
+            width: 240px;
+            /* padding: 15px; */
+            height: 1448px;
+            position: absolute;
+            top: 208px;
+            left: 133px;
+            font-family: Arial, sans-serif;
+            background: #f7fafc;
+            
+            border-radius: 6px;
+            font-size: 14px;
+          }
+          .filter-category p {
+    width: 240px;
+    height: 36px;
+    color: #505050;
+          }
+          .filter-section {
+            margin-bottom: 20px;
+          }
+          
+          .filter-section h4 {
+            
+            margin-bottom: 10px;
+            font-size: 16px;
+            color: #333;
+          }
+          
+          .filter-section label {
+            display: block;
+            margin: 5px 0;
+            cursor: pointer;
+            width: 240px;
+            height: 36px;
+          }
+          
+          .filter-section a {
+            display: block;
+            margin-top: 5px;
+            color: #007bff;
+            text-decoration: none;
+            font-size: 13px;
+          }
+          .filter-section select{
+            cursor: pointer;
+            border-top: 1px solid rgb(209, 209, 209);
+            border-left: none;
+            border-right: none;
+            border-bottom: none;
+
+/* border-style: none; */
+width: 230px;
+background-color: #f7fafc;
+
+          }
+          .filter-section .slider {
+            width: 100%;
+            margin: 10px 0;
+          }
+          
+          .price-inputs {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            margin-bottom: 10px;
+          }
+          
+          .price-inputs input {
+            width: 48%;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+          }
+          
+          button {
+            width: 100%;
+            padding: 7px;
+            color: #007bff;
+            background-color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+          
+          button:hover {
+            background-color: #0056b3;
+          }
+
+
+
+
+
+
+
+
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    
+    gap: 20px;
+    height: 1275px;
+    width: 945px;
+    position: absolute;
+    left: 384px;
+    top: 340px;
+}
+
+.product-card {
+    background: #fff;
+ 
+    position: relative;
+    width: 295px;
+    height: 405px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-card img {
+    width: 230px;
+    height: 230px;
+    border-radius: 8px;
+}
+
+.product-card h3 {
+    color: #333;
+    margin: 10px 0 5px;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #888;
+    font-size: 0.9em;
+}
+
+.rating {
+    margin: 5px 0;
+    color: #ff9900;
+    font-weight: bold;
+}
+
+.product-card p {
+    color: #666;
+    font-size: 0.9em;
+    width: 215px;
+    }
+
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+    width: 217px;
+    height: 40px;
+    position: absolute;
+    left: 1093px;
+    top: 1625px;
+    display: flex;
+}
+
+.pagination button {
+  
+    border: 1px solid rgb(218, 218, 218);
+    background-color: white;
+    color: black;
+    font-size: 16px;
+   
+    cursor: pointer;
+}
+
+.pagination button:hover {
+    background-color: rgb(214, 214, 214);
+}
+
+
+.show-pages{
+
+position: absolute;
+left: 958px;
+top: 1645px;
+/* z-index: 2; */
+
+
+}
+
+.show-pages select{
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 6px;
+    cursor: pointer;
+    width: 125px;
+height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .subscribe{
+            width: 1440px;
+            height: 190px;
+            background-color: #EFF2F4;
+            position: absolute;
+            top: 1832px;
+        }
+        
+        .newsletter{
+            position: relative;
+            left: 586px;
+            top: 38px;
+        }
+        .newsletter p{
+            color: black;
+            font-size: 20px;
+            font-weight: 500;
+        }
+        .dailynews{
+            position: absolute;
+            left: 412px;
+            top: 66px;
+        }
+        
+        .email{
+            width: 392px;
+            height: 40px;
+            position: absolute;
+            left: 525px;
+            top: 111px;
+            display: flex;
+            gap: 8px;
+        }
+        
+        .email input{
+            width: 274px;
+            height: 40px;
+            font-size: 20px;
+            border-radius: 6px;
+            border-style: none;
+        }
+        
+        .email button{
+            width: 110px;
+            height: 40px;
+            background-color: #0D6EFD;
+            color: white;
+            border-radius: 6px;
+            border-style: none;
+            font-size: 16px;
+        }
+
+
+
+
+
+
+
+
+
+
+                                /* footer  */
+
+                                footer{
+                                    height: 200px;
+                                    width: 1440px;
+                                    font-size: 1.2rem;
+                                }
+                                
+                                .brand{
+                                    position: absolute;
+                                    top: 2022px;
+                                    width: 276px;
+                                    height: 157px;
+                                   
+                                }
+                                .brand-logo{
+                                    position: relative;
+                                    top: 40px;
+                                    left: 129px;
+                                    width: 276px;
+                                    height: 157px;
+                                }
+                                .brand-logo p{
+                                    line-height: 24px;
+                                    position: absolute;
+                                    top: 55px;
+                                    width: 276px;
+                                    height:48px;
+                                    letter-spacing: -0.2px;
+                                    font-size: 16px;
+                                    
+                                }
+                                .social-media{
+                                    width: 200px;
+                                    height: 32px;
+                                    position: absolute;
+                                    top: 115px;
+                                    left: 0px;
+                                }
+                                .social-media i{
+                                   width: 32px;
+                                   height: 32px;
+                                }
+                                .about{
+                                    width: 90px;
+                                    height: 137px;
+                                    position: absolute;
+                                    left: 466px;
+                                    top: 40px;
+                                }
+                                li{
+                                    list-style-type: none;
+                                    line-height: 26px;
+                                    
+                                }
+                                .partnership{
+                                    width: 90px;
+                                    height: 137px;
+                                    position: absolute;
+                                    left: 611px;
+                                    top: 40px;
+                                }
+                                
+                                .information{
+                                    width: 118px;
+                                    height: 137px;
+                                    position: absolute;
+                                    left: 765px;
+                                    top: 40px;
+                                }
+                                
+                                .for-user{
+                                    width: 90px;
+                                    height: 137px;
+                                    position: absolute;
+                                    left: 964px;
+                                    top: 40px;
+                                }
+                                .download{
+                                    width: 124px;
+                                    height: 129px;
+                                    position: absolute;
+                                    left: 1129px;
+                                    top: 40px;
+                                }
+                                .download p{
+                                    color: black;
+                                    margin-bottom: 16px;
+                                    line-height: 20px;
+                                }
+                                .download-img{
+                                    height: 92px;
+                                    width: 124px;
+                                }
+                                .last-line{
+                                    display: flex;
+                                    position: relative;
+                                    top: 256px;
+                                    height: 68px;
+                                    width: 1440px;
+                                    background-color: rgb(231, 231, 231);
+                                    align-items: center;
+                                }
+                                .last-line p{
+                                    position: relative;
+                                    top: 0px;
+                                    left: 128px;
+                                }
+        

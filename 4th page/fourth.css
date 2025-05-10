@@ -1,0 +1,659 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    
+    
+    }
+    
+    body{
+        width: 1440px;
+    }
+    
+    .header{
+        width: 1440px;
+        height: 86px;
+        display: flex;
+        align-items: center;
+        margin-left: 130px;
+        gap: 20px;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        color: #8CB7F5;
+        font-size: 2rem;
+    }
+    img{
+        height: 46px;
+        width: 150px;
+    }
+    .search{
+        width: 421px;
+        height: 40px;
+        border-right-width: 0px;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        font-size: 16px;
+        border-color: #0D6EFD;
+       
+    }
+    
+    .full-search{
+        height: 40px;
+        width: 665px;
+        position: absolute;
+        left: 326px;
+        top: 22px;
+        
+    }
+    .categories{
+        height: 40px;
+        width: 145px;
+        font-size: 16px;
+        position: absolute;
+        left: 421px;
+        top: 0px;
+        border-width: 2px;
+        border-left-width: .4px;
+        border-color: #0D6EFD;
+       
+        
+    }
+    
+    .search-button{
+        height: 40px;
+        width: 100px;
+        position: absolute;
+        top: 0px;
+        left: 565px;
+        background-color: #0D6EFD;
+        color: white;
+        border-style:none;
+        
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        font-size: 16px;
+    }
+    
+    
+    .user{
+        width: 228px;
+        height: 41px;
+        position: absolute;
+        left: 1080px;
+        top: 25px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .user p{
+        color: grey;
+    }
+    i{
+       color:grey
+    }
+    
+    hr{
+        opacity: .25;
+    }
+    
+    select{
+        font-size: 1rem;
+    }
+    
+    .menu{
+        height: 56px;
+        width: 1440px;
+        display: flex;
+        
+       
+    }
+    .menu-right{
+        width: 620px;
+        display: flex;
+        gap:20px;
+        align-items: center;
+        font-size: 1rem;
+        margin-left: 130px;
+        justify-content: space-between;
+    }
+    
+    .menu-logo{
+        display: flex;
+        gap: 7px;
+    }
+    .helpoption{
+        border-style: none;
+        width: 60px;
+    }
+    
+    pre{
+        font-size: 1rem;
+    }
+    .offer p{
+        color: black;
+    }
+    .gift p{
+        color: black;
+    }
+    .project p{
+        color: black;
+    }
+    .item p{
+        color: black;
+    }
+    .shipping{
+        display:flex;
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+    
+    .lang{
+        
+        border-style: none;
+        position: relative;
+        top:16px;
+        left: 280px;
+        width: 124px;
+        height: 24px;
+    }
+    .location{
+        border-style: none;
+        position: relative;
+        left: 150px;
+        top: 8px;
+        height: 24px;
+        width: 115px;
+    }
+
+
+
+
+                                     /* main  */
+
+
+    main{
+        width: 1440px;
+        height: 1900px;
+        background-color: #f7fafc;
+        
+        
+    }
+    
+    
+        .path{
+            width: 1440px;
+            height: 64px;
+            position: absolute;
+            top: 142px;
+            
+        }
+        .path pre{
+            width: 411px;
+            height: 24px;
+            position: relative;
+            top: 20px;
+            left: 133px;
+            color: #8B96A5;
+        }
+
+
+
+
+
+
+
+
+       
+          .container {
+            display: flex;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            
+            position: absolute;
+            top: 206px;
+            left: 130px;
+            width: 1180px;
+            height: 580px;
+            margin: auto;
+          }
+         
+.left{
+    margin: 20px;
+}
+
+          .mid{
+            width: 430px;
+            height: 514px;
+            position: relative;
+            left: 0px;
+            top: 22px;
+          }
+          .mid h2{
+            position: relative;
+            top: 0px;
+          }
+          .in-stock{
+            display: flex;
+            gap: 10px;
+            color: green;
+          }
+          .in-stock i{
+            color: green;
+          }
+          .right {
+            width: 280px;
+            height: 325px;
+            position: relative;
+            top: 20px;
+            left: 20px;
+          }
+          .logoAndName{
+            display: flex;
+            gap: 20px;
+          }
+          .logoAndName img{
+            width: 48px;
+            height: 48px;
+          }
+          .logoAndName p{
+            font-weight: 400;
+            line-height: 25px;
+          }
+          .main-image {
+            width: 380px;
+            height: 380px;
+            border: 1px solid rgb(231, 231, 231);;
+            display: block;
+            margin-bottom: 10px;
+          }
+          .thumbnails img {
+            width: 381.15px;
+            height: 56px;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+          }
+          h2 {
+            margin-top: 0;
+          }
+          .stars {
+            color: orange;
+            margin: 5px 0;
+          }
+          .price-box {
+            display: flex;
+            gap: 10px;
+            margin: 15px 0;
+            background: #FFF0DF;
+            width: 430px;
+            height: 72px;
+            justify-content: space-evenly;
+            align-items: center;
+          }
+          .price-box div {
+            
+            padding: 10px;
+            border-right: 1px solid #ffcccc;
+            border-radius: 5px;
+            color: #d10000;
+            font-weight: bold;
+          }
+          .price-box small{
+            color: rgb(110, 110, 110);
+          }
+          .info-table {
+            margin-top: 10px;
+            line-height: 30px;
+            color: #8B96A5;
+          }
+          .info-table div {
+            margin: 6px 0;
+          }
+          .btn {
+            background: #007bff;
+            color: #fff;
+            
+            text-align: center;
+            border: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            cursor: pointer;
+            display: block;
+            font-weight: bold;
+            width: 248px;
+            height: 40px;
+          }
+          .verified {
+            font-size: 14px;
+            margin-top: 10px;
+          }
+          .verified div {
+            
+            line-height: 30px;
+            padding: 5px 8px;
+            margin-right: 5px;
+            border-radius: 4px;
+          }
+
+
+
+
+
+
+
+
+          .product-detail{
+            width: 880px;
+            height: 618px;
+            background-color: white;
+            position: absolute;
+            left: 130px;
+            top: 806px;
+          }
+
+          .detail-header{
+            display: flex;
+            height: 48px;
+            gap: 50px;
+            align-items: center;
+            margin-left: 20px;
+          }
+
+        .paragraph{
+            margin-top: 20px;
+            line-height: 30px;
+            margin-left: 20px;
+        }
+
+
+
+    
+
+
+table {
+    width: 567px;
+    height: 180px;
+    border-collapse: collapse;
+    position: relative;
+    left: 20px;
+    top: 30px;
+  
+  }
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #e0e0e0;
+  }
+  th {
+    background-color: #f5f8fa;
+    color: #333;
+    font-weight: normal;
+    width: 204px;
+  }
+  td {
+    background-color: #ffffff;
+    color: #555;
+  }
+
+
+  .features{
+    width: 325px;
+    height: 126px;
+    position: relative;
+    top: 40px;
+    line-height: 25px;
+    margin-left: 20px;
+  }
+
+
+
+
+
+
+
+
+  .like {
+    color: #333;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 916px;
+    top:10px ;
+    z-index: 2;
+    width: 97px;
+    height: 19px;
+}
+
+.products-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 280px;
+    height: 553px;
+    background-color: white;
+    position: absolute;
+    left: 900px;
+    top: 0px;
+}
+
+.product-card {
+    width: 242px;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    border-radius: 8px;
+    /* overflow: hidden; */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-image img{
+    height: 80px;
+    width: 80px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+    /* border: 1px solid #8B96A5; */
+    
+}
+
+.product-info {
+    padding-left: 15px;
+}
+
+.product-title {
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.product-subtitle {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    color: #e53935;
+    font-weight: 400;
+}
+
+
+.rel-text{
+  position: relative;
+  left: 152px;
+  top: 1316px;
+  z-index: 2;
+}
+
+.related-products{
+  width: 1180px;
+  height: 350px;
+  background-color: white;
+  position: absolute;
+  left: 130px;
+  top: 1444px;
+  display: flex;
+}
+
+
+
+.item img{
+  width: 172px;
+  height: 172px;
+}
+
+.rel-product{
+  height: 254px;
+  width: 172px;
+  margin-left: 20px;
+  margin-top: 63px;
+}
+
+.rel-description{
+
+  margin-top: 10px;
+  width: 142px;
+}
+
+.rel-price{
+  margin-top: 10px;
+  color:#8B96A5;
+}
+
+
+.super-banner img{
+width: 1180px;
+height: 120px;
+position: relative;
+left: 130px;
+top: 1654px;
+}
+
+
+
+
+
+
+
+
+
+
+          /* footer  */
+
+          footer{
+            height: 250px;
+            width: 1440px;
+            font-size: 1.2rem;
+        }
+        
+        .brand{
+            position: absolute;
+            top: 2022px;
+            width: 276px;
+            height: 157px;
+           
+        }
+        .brand-logo{
+            position: relative;
+            top: 40px;
+            left: 129px;
+            width: 276px;
+            height: 157px;
+        }
+        .brand-logo p{
+            line-height: 24px;
+            position: absolute;
+            top: 55px;
+            width: 276px;
+            height:48px;
+            letter-spacing: -0.2px;
+            font-size: 16px;
+            
+        }
+        .social-media{
+            width: 200px;
+            height: 32px;
+            position: absolute;
+            top: 115px;
+            left: 0px;
+        }
+        .social-media i{
+           width: 32px;
+           height: 32px;
+        }
+        .about{
+            width: 90px;
+            height: 137px;
+            position: absolute;
+            left: 466px;
+            top: 40px;
+        }
+        li{
+            list-style-type: none;
+            line-height: 26px;
+            
+        }
+        .partnership{
+            width: 90px;
+            height: 137px;
+            position: absolute;
+            left: 611px;
+            top: 40px;
+        }
+        
+        .information{
+            width: 118px;
+            height: 137px;
+            position: absolute;
+            left: 765px;
+            top: 40px;
+        }
+        
+        .for-user{
+            width: 90px;
+            height: 137px;
+            position: absolute;
+            left: 964px;
+            top: 40px;
+        }
+        .download{
+            width: 124px;
+            height: 129px;
+            position: absolute;
+            left: 1129px;
+            top: 40px;
+        }
+        .download p{
+            color: black;
+            margin-bottom: 16px;
+            line-height: 20px;
+        }
+        .download-img{
+            height: 92px;
+            width: 124px;
+        }
+        .last-line{
+            display: flex;
+            position: relative;
+            top: 56px;
+            height: 68px;
+            width: 1440px;
+            background-color: rgb(231, 231, 231);
+            align-items: center;
+        }
+        .last-line p{
+            position: relative;
+            top: 0px;
+            left: 128px;
+        }

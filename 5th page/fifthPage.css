@@ -1,0 +1,547 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    
+    
+    }
+    
+    body{
+        width: 1440px;
+    }
+    
+    .header{
+        width: 1440px;
+        height: 86px;
+        display: flex;
+        align-items: center;
+        margin-left: 130px;
+        gap: 20px;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        color: #8CB7F5;
+        font-size: 2rem;
+    }
+    img{
+        height: 46px;
+        width: 150px;
+    }
+   
+    
+    
+    .user{
+        width: 228px;
+        height: 41px;
+        position: absolute;
+        left: 1080px;
+        top: 25px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .user p{
+        color: grey;
+    }
+    i{
+       color:grey
+    }
+    
+    hr{
+        opacity: .25;
+    }
+
+
+
+
+    /* main */
+
+   main{
+    height: 1483px;
+    background-color: #f7fafc;
+   }
+  
+      .cart {
+        background: #fff;
+        border: 2px solid #eee;
+        border-radius: 10px;
+        width: 880px;
+        height: 552px;
+        margin: auto;
+        /* padding: 20px; */
+        position: absolute;
+        top: 168px;
+        left: 130px;
+      }
+  
+      .cart-item {
+        display: flex;
+        position: relative;
+        left: 20px;
+        top: 20px;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #eee;
+        padding: 15px 0;
+      }
+  
+      .cart-item:last-child {
+        border-bottom: none;
+      }
+  
+      .item-info {
+        display: flex;
+        align-items: flex-start;
+        gap: 15px;
+        flex: 1;
+      }
+  
+      .item-info img {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 6px;
+      }
+  
+      .item-details {
+        font-size: 14px;
+        color: #555;
+      }
+  
+      .item-title {
+        font-weight: bold;
+        color: #000;
+        margin-bottom: 5px;
+      }
+  
+      .buttons {
+        margin-top: 8px;
+      }
+  
+      .buttons button {
+        padding: 6px 10px;
+        font-size: 12px;
+        border: 1px solid #e6f0ff;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-right: 5px;
+      }
+  
+      .remove-btn {
+        
+     background-color: white;
+        color: #ff4d4f;
+      }
+  
+      .save-btn {
+        background-color: white;
+        color: #0066cc;
+      }
+  
+      .price {
+        font-weight: bold;
+        color: #333;
+        width: 80px;
+        text-align: right;
+        position: absolute;
+        left: 766px;
+        top: 6px;
+      }
+  
+      .qty-select {
+        position: absolute;
+        left: 757px;
+        top: 40px;
+        margin-left: 20px;
+      }
+  
+      .qty-select select {
+        padding: 6px;
+        font-size: 14px;
+      }
+  
+      .cart-footer {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+      }
+  
+      .back-btn {
+        background: #007bff;
+        color: white;
+        border: none;
+        position: relative;
+        top: 20px;
+        left: 20px;
+        padding: 10px 16px;
+        border-radius: 6px;
+        font-size: 14px;
+        cursor: pointer;
+      }
+  
+      .remove-all {
+        background: none;
+        color: #007bff;
+        border: 1px solid rgb(224, 224, 224);
+        font-size: 14px;
+        cursor: pointer;
+        position: relative;
+        top: 20px;
+        right: 20px;
+        height: 40px;
+        width: 115px;
+      }
+
+
+
+
+
+
+
+
+
+
+
+      .coupon{
+        width: 280px;
+        height: 110px;
+        position: absolute;
+        left: 1030px;
+        top: 168px;
+        background-color: white;
+        border: 1px solid #e6f0ff;
+        border-radius: 6px;
+      }
+
+.coupon p{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+      .add-coupon{
+        display: flex;
+        width: 247px;
+      }
+
+      .add-coupon input{
+width: 164px;
+height: 38px;
+margin-top: 10px;
+margin-left: 20px;
+border-right: none;
+border-color: #e6f0ff;
+      }
+
+      .apply-coupon button{
+        width: 85px;
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 0px;
+        color: #007bff;
+        background-color: white;
+        border-color:#e6f0ff;
+        /* border-style:dashed; */
+      }
+
+
+
+
+
+
+
+
+
+
+
+      .summary-box {
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        width: 300px;
+        height: 302px;
+        /* padding: 20px; */
+
+        position: relative;
+        left: 1030px;
+        top: 204px;
+      }
+  
+      .summary-box .row {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-top: 20px;
+margin-right: 20px;
+        font-size: 16px;
+      }
+  
+      .summary-box .row.discount {
+        color: red;
+      }
+  
+      .summary-box .row.tax {
+        color: green;
+      }
+  
+      .summary-box hr {
+        border: none;
+        border-top: 1px solid #eee;
+        margin: 20px 0;
+      }
+  
+      .summary-box .total {
+        font-size: 18px;
+        font-weight: bold;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+  
+      .checkout-btn {
+        background-color: #00b300;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        padding: 12px;
+        width: 248px;
+        height: 54px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-left: 25px;
+        margin-bottom: 20px;
+      }
+  
+      .payment-icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+        /* flex-wrap: wrap; */
+      }
+  
+      .payment-icons img {
+        height: 24px;
+        object-fit: contain;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+      .saved-section {
+        background: #fff;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        
+        width: 1180px;
+        height: 475px;
+       
+        position: absolute;
+        left: 130px;
+        top: 827px;
+      }
+  
+      .saved-section h3 {
+        margin: 20px;
+      }
+  
+      .saved-grid {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+  
+      .saved-item {
+        width: 272px;
+        height: 382px;
+        border-radius: 8px;
+        text-align: center;
+      }
+  
+      .saved-item img {
+        width: 270px;
+        height: 240px;
+        object-fit: contain;
+        background-color: #f5f5f5;
+        border-radius: 6px;
+      }
+  
+      .s-price {
+        font-weight: bold;
+        font-size: 16px;
+        margin-top: 10px;
+       
+      }
+  
+      .desc {
+        font-size: 13px;
+        color: #555;
+        margin-top: 20px;
+      }
+  
+      .move-btn {
+        display: inline-flex;
+        align-items: center;
+        /* gap: 5px; */
+        background: none;
+        border: 1px solid #e6f0ff;
+        color: #007bff;
+        margin-top: 10px;
+        width: 156px;
+        height: 40px;
+        font-size: 13px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background 0.2s;
+      }
+  
+      .move-btn:hover {
+        background: #e6f0ff;
+      }
+  
+      .move-btn svg {
+        width: 14px;
+        height: 14px;
+        fill: #007bff;
+      }
+
+
+
+
+
+
+
+
+
+      .super-banner img{
+        width: 1180px;
+        height: 120px;
+        position: absolute;
+        left: 130px;
+        top: 1322px;
+        }
+
+        
+
+
+
+
+                   /* footer */
+
+
+
+        
+                   footer{
+                    height: 256px;
+                    width: 1440px;
+                    font-size: 1.2rem;
+                }
+                
+                .brand{
+                    position: absolute;
+                    top: 1483px;
+                    width: 276px;
+                    height: 157px;
+                   
+                }
+                .brand-logo{
+                    position: relative;
+                    top: 40px;
+                    left: 129px;
+                    width: 276px;
+                    height: 157px;
+                }
+                .brand-logo p{
+                    line-height: 24px;
+                    position: absolute;
+                    top: 55px;
+                    width: 276px;
+                    height:48px;
+                    letter-spacing: -0.2px;
+                    font-size: 16px;
+                    
+                }
+                .social-media{
+                    width: 200px;
+                    height: 32px;
+                    position: absolute;
+                    top: 115px;
+                    left: 0px;
+                }
+                .social-media i{
+                   width: 32px;
+                   height: 32px;
+                }
+                .about{
+                    width: 90px;
+                    height: 137px;
+                    position: absolute;
+                    left: 466px;
+                    top: 40px;
+                }
+                li{
+                    list-style-type: none;
+                    line-height: 26px;
+                    
+                }
+                .partnership{
+                    width: 90px;
+                    height: 137px;
+                    position: absolute;
+                    left: 611px;
+                    top: 40px;
+                }
+                
+                .information{
+                    width: 118px;
+                    height: 137px;
+                    position: absolute;
+                    left: 765px;
+                    top: 40px;
+                }
+                
+                .for-user{
+                    width: 90px;
+                    height: 137px;
+                    position: absolute;
+                    left: 964px;
+                    top: 40px;
+                }
+                .download{
+                    width: 124px;
+                    height: 129px;
+                    position: absolute;
+                    left: 1129px;
+                    top: 40px;
+                }
+                .download p{
+                    color: black;
+                    margin-bottom: 16px;
+                    line-height: 20px;
+                }
+                .download-img{
+                    height: 92px;
+                    width: 124px;
+                }
+                .last-line{
+                    position: relative;
+                    display: flex;
+                    height: 68px;
+                    width: 1440px;
+                    background-color: rgb(231, 231, 231);
+                    align-items: center;
+                }
+                .last-line p{
+                    position: relative;
+                    left: 128px;
+                }
